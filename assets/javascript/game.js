@@ -45,9 +45,9 @@ document.addEventListener('keyup', function (event) {
             document.getElementById('wrong-letters-chosen-bank').innerHTML = wrongLettersChosenBank
         }
         // prevent the same letter from being guessed twice
-        if (wrongLettersChosenBank.includes(key) === true) {
-            alert("You've already gueses that letter!")
-        }
+        //if (wrongLettersChosenBank.includes(key) === true) {
+            //alert("You've already gueses that letter!")
+       // }
 
 
 
